@@ -1,0 +1,41 @@
+
+body {
+    box-sizing: border-box;
+    background-color: rgb(71, 71, 71);
+    color: black;
+}
+h1 {
+    text-shadow:hsl(0, 0%, 10%) 0px 0px 3px;
+}
+form {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: hsl(0, 0%, 10%) 0px 0px 10px;
+}
+.radio-class {
+    display: flex;
+    margin-left: 36%;
+    font-weight: bold;
+}
+#numberValue {
+    margin-bottom: 5px;
+}
+#convertButton {
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid hsl(0, 0%, 40%);
+    background-color: hsl(0, 0%, 80%);
+}
+#convertButton:hover {
+    background-color: hsl(0, 0%, 60%);
+}
+#errorMessage {
+    color: red;
+    font-weight: bold;
+    line-height: 1px;
+    font-size: 0.5em;
+}
